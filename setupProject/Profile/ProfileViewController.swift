@@ -53,7 +53,7 @@ final class ProfileViewController:UIViewController {
         descriptionLabel.leadingAnchor.constraint(equalTo: imageView.leadingAnchor).isActive = true
         descriptionLabel.topAnchor.constraint(equalTo: loginNameLabel.bottomAnchor, constant: 8).isActive = true
         self.label = descriptionLabel
-       
+        
         let logoutButton: UIButton = UIButton.init(type: UIButton.ButtonType.custom)
         logoutButton.setImage(UIImage(named: "logout_button"), for: UIControl.State.normal)
         logoutButton.translatesAutoresizingMaskIntoConstraints = false
@@ -65,6 +65,6 @@ final class ProfileViewController:UIViewController {
     
     @objc
     private func didTapButton() {
-      
+        
     }
 }
