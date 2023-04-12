@@ -14,6 +14,9 @@
 		422A3A95299E69950064146A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422A3A94299E69950064146A /* Assets.xcassets */; };
 		422A3A98299E69950064146A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422A3A96299E69950064146A /* LaunchScreen.storyboard */; };
 		422A3AC029BC6E210064146A /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A3ABF29BC6E210064146A /* ImagesListCell.swift */; };
+		42AA813029E71AF9008C2896 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA812F29E71AF9008C2896 /* Constants.swift */; };
+		42AA813329E71B85008C2896 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA813229E71B85008C2896 /* AuthViewController.swift */; };
+		42AA813529E71B96008C2896 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA813429E71B96008C2896 /* WebViewViewController.swift */; };
 		42BE4EBE29D1DF1400F8287F /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BE4EBD29D1DF1400F8287F /* SingleImageViewController.swift */; };
 		42BE4EC129D1DF7100F8287F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BE4EC029D1DF7100F8287F /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +31,9 @@
 		422A3A97299E69950064146A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		422A3A99299E69950064146A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422A3ABF29BC6E210064146A /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
+		42AA812F29E71AF9008C2896 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		42AA813229E71B85008C2896 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		42AA813429E71B96008C2896 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		42BE4EBD29D1DF1400F8287F /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 		42BE4EC029D1DF7100F8287F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,11 +68,13 @@
 		422A3A8A299E69940064146A /* setupProject */ = {
 			isa = PBXGroup;
 			children = (
+				42AA813129E71B65008C2896 /* Auth */,
 				42BE4EBF29D1DF5D00F8287F /* Profile */,
 				42BE4EBC29D1DEFC00F8287F /* SingleImageView */,
 				422A3AC129BC6E5D0064146A /* ImagesList */,
 				422A3A8B299E69940064146A /* AppDelegate.swift */,
 				422A3A8D299E69940064146A /* SceneDelegate.swift */,
+				42AA812F29E71AF9008C2896 /* Constants.swift */,
 				422A3A91299E69940064146A /* Main.storyboard */,
 				422A3A94299E69950064146A /* Assets.xcassets */,
 				422A3A96299E69950064146A /* LaunchScreen.storyboard */,
@@ -82,6 +90,15 @@
 				422A3A8F299E69940064146A /* ImagesListViewController.swift */,
 			);
 			path = ImagesList;
+			sourceTree = "<group>";
+		};
+		42AA813129E71B65008C2896 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				42AA813229E71B85008C2896 /* AuthViewController.swift */,
+				42AA813429E71B96008C2896 /* WebViewViewController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		42BE4EBC29D1DEFC00F8287F /* SingleImageView */ = {
@@ -175,7 +192,10 @@
 				422A3A90299E69940064146A /* ImagesListViewController.swift in Sources */,
 				42BE4EBE29D1DF1400F8287F /* SingleImageViewController.swift in Sources */,
 				422A3AC029BC6E210064146A /* ImagesListCell.swift in Sources */,
+				42AA813329E71B85008C2896 /* AuthViewController.swift in Sources */,
+				42AA813029E71AF9008C2896 /* Constants.swift in Sources */,
 				422A3A8C299E69940064146A /* AppDelegate.swift in Sources */,
+				42AA813529E71B96008C2896 /* WebViewViewController.swift in Sources */,
 				422A3A8E299E69940064146A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
