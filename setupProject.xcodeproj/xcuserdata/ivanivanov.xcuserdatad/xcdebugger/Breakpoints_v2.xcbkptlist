@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F0C478FB-DD21-4AB0-AC2C-890D05082D8C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "setupProject/Auth/WebViewViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "WebViewViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09 - ca28cb88ecbd2361"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "setupProject.WebViewViewController.webView.getter : Swift.Optional&lt;__C.WKWebView&gt;"
+                  moduleName = "setupProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanivanov/Documents/setupProject/setupProject/Auth/WebViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09 - 993054d8bfe3ff15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "setupProject.WebViewViewController.webView.setter : Swift.Optional&lt;__C.WKWebView&gt;"
+                  moduleName = "setupProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanivanov/Documents/setupProject/setupProject/Auth/WebViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09 - 8963e46fb69a0344"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "setupProject.WebViewViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; setupProject.WebViewViewController"
+                  moduleName = "setupProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanivanov/Documents/setupProject/setupProject/Auth/WebViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09 - 7d0e8d3456a06e91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "setupProject.WebViewViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;setupProject.WebViewViewController&gt;"
+                  moduleName = "setupProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivanivanov/Documents/setupProject/setupProject/Auth/WebViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
