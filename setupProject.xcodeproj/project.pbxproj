@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		421BCC8C29F015C6008CACF6 /* YS Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 421BCC8B29F015C6008CACF6 /* YS Display-Bold.ttf */; };
 		422A3A8C299E69940064146A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A3A8B299E69940064146A /* AppDelegate.swift */; };
 		422A3A8E299E69940064146A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A3A8D299E69940064146A /* SceneDelegate.swift */; };
 		422A3A90299E69940064146A /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A3A8F299E69940064146A /* ImagesListViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		421BCC8B29F015C6008CACF6 /* YS Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YS Display-Bold.ttf"; sourceTree = "<group>"; };
 		422A3A88299E69940064146A /* setupProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = setupProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422A3A8B299E69940064146A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		422A3A8D299E69940064146A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				422A3A94299E69950064146A /* Assets.xcassets */,
 				422A3A96299E69950064146A /* LaunchScreen.storyboard */,
 				422A3A99299E69950064146A /* Info.plist */,
+				421BCC8B29F015C6008CACF6 /* YS Display-Bold.ttf */,
 			);
 			path = setupProject;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				422A3A98299E69950064146A /* LaunchScreen.storyboard in Resources */,
 				422A3A95299E69950064146A /* Assets.xcassets in Resources */,
 				422A3A93299E69940064146A /* Main.storyboard in Resources */,
+				421BCC8C29F015C6008CACF6 /* YS Display-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,7 @@ struct OAuthTokenResponseBody: Codable {
     let scope: String
     let createdAt: Int
     
-    private enum KeychainWrapper: String, CodingKey {
+    private enum CodingKeys: String, CodingKey {
         case accessToken = "access_token"
         case tokenType = "token_type"
         case scope = "scope"
@@ -22,7 +22,7 @@ struct OAuthTokenResponseBody: Codable {
     }
 }
 
-final class OAuth2Service {
+class OAuth2Service {
 
     private enum NetworkError: Error {
         case codeError
@@ -30,7 +30,7 @@ final class OAuth2Service {
     
     private let unsplashAuthorizePostURLString = "https://unsplash.com/oauth/token"
 
-    func fetchOAuthToken(_ code: String, completion: @escaping (Result<String, Error>) -> Void) {
+    func fetchAuthToken(code: String, completion: @escaping (Result<String, Error>) -> Void) {
         var urlComponents = URLComponents(string: self.unsplashAuthorizePostURLString)!
         urlComponents.queryItems = [
             URLQueryItem(name: "client_id", value: AccessKey),
@@ -70,3 +70,4 @@ final class OAuth2Service {
         task.resume()
     }
 }
+

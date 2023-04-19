@@ -7,79 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09"
+            uuid = "9F648D62-D8C3-4A2E-82D3-4FE61CC1C523"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "setupProject/Auth/WebViewViewController.swift"
+            filePath = "setupProject/Profile/ProfileViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "WebViewViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09 - ca28cb88ecbd2361"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "setupProject.WebViewViewController.webView.getter : Swift.Optional&lt;__C.WKWebView&gt;"
-                  moduleName = "setupProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ivanivanov/Documents/setupProject/setupProject/Auth/WebViewViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09 - 993054d8bfe3ff15"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "setupProject.WebViewViewController.webView.setter : Swift.Optional&lt;__C.WKWebView&gt;"
-                  moduleName = "setupProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ivanivanov/Documents/setupProject/setupProject/Auth/WebViewViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "108">
-               </Location>
-               <Location
-                  uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09 - 8963e46fb69a0344"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "setupProject.WebViewViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; setupProject.WebViewViewController"
-                  moduleName = "setupProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ivanivanov/Documents/setupProject/setupProject/Auth/WebViewViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "56416089-3DBF-43E2-B9B4-BC53A7FC9A09 - 7d0e8d3456a06e91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "setupProject.WebViewViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;setupProject.WebViewViewController&gt;"
-                  moduleName = "setupProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ivanivanov/Documents/setupProject/setupProject/Auth/WebViewViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "80">
-               </Location>
-            </Locations>
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56D6AA8A-8291-4E93-8735-4AF12F8394E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "setupProject/Profile/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75AF1A3D-E64D-43FC-A18F-FE11C00F5248"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "setupProject/Profile/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
